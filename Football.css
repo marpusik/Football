@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.football {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./Football.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.shape {
+    clip-path: polygon(0% 0%, 50% 0, 39% 50%, 75% 100%, 0% 100%);
+    height: 100%;
+    width: 100%;
+    float: left;
+    shape-outside: polygon(0% 0%, 50% 0, 39% 50%, 75% 100%, 0% 100%);
+}
+
+.text {
+    font-family: Muli, sans-serif;
+    color: white;
+    font-size: 55px;
+    margin: 0;
+}
